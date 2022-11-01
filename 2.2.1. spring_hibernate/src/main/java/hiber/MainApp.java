@@ -37,8 +37,8 @@ public class MainApp {
 //      user4.setUserCar(car4);
 //      userService.add(user4);
 
-      userService.showUserByCar("Fiat",87824);
-      userService.showUserByCar("BMW",54312);
+      System.out.println(userService.getUserByCar("Fiat", 87824));
+      System.out.println(userService.getUserByCar("BMW", 54312));
 
 
 //      userService.add(new User("User2", "Lastname2", "user2@mail.ru"));
