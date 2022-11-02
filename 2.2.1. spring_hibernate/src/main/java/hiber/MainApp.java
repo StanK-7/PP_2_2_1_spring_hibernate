@@ -40,6 +40,8 @@ public class MainApp {
       System.out.println(userService.getUserByCar("Fiat", 87824));
       System.out.println(userService.getUserByCar("BMW", 54312));
 
+      System.out.println(userService.getUserByCar("BMW", 5432));
+
 
 //      userService.add(new User("User2", "Lastname2", "user2@mail.ru"));
 //      userService.add(new User("User3", "Lastname3", "user3@mail.ru"));
